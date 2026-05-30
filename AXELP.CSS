@@ -1,0 +1,145 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+width:90%;
+margin:auto;
+background:#f0f0f0;
+}
+
+/* HEADER */
+header{
+background-image:url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+background-size:cover;
+background-position:center;
+padding:40px;
+text-align:center;
+color:white;
+border:4px solid black;
+}
+
+/* NAV */
+nav{
+background-image:url("https://www.transparenttextures.com/patterns/flowers.png");
+background-color:skyblue;
+padding:15px;
+text-align:center;
+}
+
+nav ul{
+list-style:none;
+}
+
+nav li{
+display:inline-block;
+margin:10px;
+}
+
+nav a{
+text-decoration:none;
+font-weight:bold;
+color:black;
+}
+
+/* MAIN */
+main{
+display:flex;
+}
+
+/* SECTION */
+section{
+width:75%;
+padding:20px;
+background-image:url("https://www.transparenttextures.com/patterns/rice-paper-3.png");
+background-color:#eef9ff;
+border:4px solid black;
+}
+
+/* ASIDE */
+aside{
+width:25%;
+padding:20px;
+background-image:url("https://www.transparenttextures.com/patterns/vertical-cloth.png");
+background-color:#ffd6d6;
+border:4px solid black;
+}
+
+aside img{
+width:100%;
+margin-bottom:10px;
+border-radius:10px;
+}
+
+/* TABLA */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+table,th,td{
+border:1px solid black;
+}
+
+th{
+background:#1976d2;
+color:white;
+}
+
+th,td{
+padding:10px;
+text-align:center;
+}
+
+/* MULTIMEDIA */
+.multimedia{
+padding:20px;
+background:#e3f2fd;
+}
+
+.multimedia video{
+width:300px;
+height:auto;
+}
+
+/* FOOTER */
+footer{
+background-image:url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+padding:20px;
+text-align:center;
+border:4px solid black;
+}
+/* NAVEGADORES */
+
+.navegadores{
+padding:20px;
+background:#dbeafe;
+border:4px solid black;
+text-align:center;
+}
+
+.navegadores ul{
+list-style:none;
+}
+
+.navegadores li{
+margin:15px;
+}
+
+.navegadores a{
+background:#1565c0;
+color:white;
+text-decoration:none;
+padding:10px 20px;
+border-radius:8px;
+font-weight:bold;
+display:inline-block;
+}
+
+.navegadores a:hover{
+background:#0d47a1;
+}
